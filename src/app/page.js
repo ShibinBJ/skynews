@@ -226,7 +226,9 @@ export default function Home() {
           </div>
           <div className="col-span-12 lg:col-span-3 mt-2 lg:mt-0">
             <p className="text-gray-800 hover:underline text-[22px] px-3 mb-2">
-              <a href="article">{stories[0]?.title}</a>
+              <a href="article">
+                Zelenskyy makes demand of Trump - and issues warning to NATO
+              </a>
             </p>
             <p className="text-blue-600 Hover:underline cursor-pointer text-[12px] font-bold px-3 pt-4">
               'Putin wants to trick Trump'
@@ -243,7 +245,9 @@ export default function Home() {
           <div className="col-span-12 lg:col-span-3 text-gray-800">
             <img src={image.img2} className="rounded cursor-pointer" />
             <p className="text-gray-800 hover:underline cursor-pointer pt-4">
-              <a href="article">{stories[1]?.title}</a>
+              <a href="article">
+                Bristling with frustration - Zelenskyy's message is clear
+              </a>
             </p>
             <div className="flex gap-1 pt-[30px] lg:pt-[60px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">8 hrs ago</div>
@@ -269,7 +273,7 @@ export default function Home() {
               </div>
             </a>
             <p className="text-gray-800 hover:underline cursor-pointer pt-5">
-              {stories[2]?.title}
+              UN Commission says Israel is committing genocide in Gaza
             </p>
             <div className="flex gap-1 pt-[20px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">1 hrs ago</div>
@@ -293,7 +297,8 @@ export default function Home() {
               </div>
             </a>
             <p className="text-gray-800 hover:underline cursor-pointer px-1 pt-5">
-              {stories[3]?.title}
+              Ground forces moving deeper into Gaza City, Israel says - as
+              attack to 'destroy Hamas' begins
             </p>
             <div className="flex gap-1 pt-[44px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">1 hrs ago</div>
@@ -307,7 +312,8 @@ export default function Home() {
           <div className="col-span-12 lg:col-span-3 ">
             <img src={image.img5} className="rounded cursor-pointer" />
             <p className="text-gray-800 hover:underline cursor-pointer px-1 pt-3">
-              {stories[4]?.title}
+              Trump arrives in UK today - and no state visit has ever had such
+              an unseemly backdrop as this
             </p>
             <div className="flex gap-1 pt-[20px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">7 hrs ago</div>
@@ -328,7 +334,8 @@ export default function Home() {
               </div>
             </a>
             <p className="text-gray-800 hover:underline cursor-pointer px-1 pt-5">
-              {stories[5]?.title}
+              Starmer under pressure as MPs to debate Mandelson appointment and
+              Epstein links
             </p>
             <div className="flex gap-1 pt-[19px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">18 mins ago</div>
@@ -354,7 +361,7 @@ export default function Home() {
               </div>
             </a>
             <p className="text-gray-800 hover:underline cursor-pointer pt-5">
-              {stories[6]?.title}
+              Income tax warning with state pension set to rise | Money
             </p>
             <div className="flex gap-1 pt-[39px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">1 hr ago</div>
@@ -375,7 +382,8 @@ export default function Home() {
               </div>
             </a>
             <p className="text-gray-800 hover:underline cursor-pointer px-1 pt-5">
-              {stories[7]?.title}
+              Britain's drugs industry is suffering withdrawal symptoms, and it
+              could prove costly
             </p>
             <div className="flex gap-1 pt-[15px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">10 hrs ago</div>
@@ -389,7 +397,8 @@ export default function Home() {
           <div className="col-span-12 lg:col-span-3">
             <img src="i9.jpg" className="rounded cursor-pointer" />
             <p className="text-gray-800 hover:underline cursor-pointer px-1 pt-3">
-              {stories[8]?.title}
+              Ricky Hatton's ex-girlfriend Claire Sweeney pays tribute after
+              boxer's death
             </p>
             <div className="flex gap-1 pt-[15px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">13 mins ago</div>
@@ -403,7 +412,7 @@ export default function Home() {
           <div className="col-span-12 lg:col-span-3">
             <img src="i10.jpg" className="rounded cursor-pointer" />
             <p className="text-gray-800 hover:underline cursor-pointer px-1 pt-3">
-              {stories[9]?.title}
+              Another ex-Tory minister defects to Reform UK
             </p>
             <div className="flex gap-1 pt-[39px] pb-4">
               <div className="text-gray-800 text-[12px] pt-1">11 mins ago</div>

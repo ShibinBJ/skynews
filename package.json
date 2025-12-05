@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
     "lucide-react": "^0.544.0",
@@ -20,6 +22,9 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
   }
 }
+
+
