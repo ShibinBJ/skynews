@@ -32,6 +32,7 @@ export default function ArtPage() {
             <a href="#">
               <img
                 src="skylight.svg"
+                alt="Sky News Logo"
                 className="w-[110px] lg:w-[160px] pt-[17px] lg:pt-[23px] pb-5 lg:pb-0"
               />
             </a>
@@ -41,7 +42,7 @@ export default function ArtPage() {
               <div className="flex gap-2">
                 <div className="text-gray-800 text-[14px] pt-2">16 Sept</div>
                 <div>
-                  <img src="clo.svg" className="w-[25px] pt-2" />
+                  <img src="clo.svg" alt="Weather icon" className="w-[25px] pt-2" />
                 </div>
                 <div>
                   <p className="text-gray-800 text-[14px]">20°</p>
@@ -201,17 +202,17 @@ export default function ArtPage() {
           EXCLUSIVE
         </button>
         <p className="text-[45px] leading-12 text-zinc-600 pt-[6px]">
-          Zelenskyy demands 'clear position' from<br></br> Trump on ending war
+          Zelenskyy demands &apos;clear position&apos; from<br></br> Trump on ending war
         </p>
         <p className="text-[20px] text-zinc-600 pt-8 leading-7">
           In a one-on-one interview in the Presidential Palace in Kyiv, the
-          Ukrainian leader tells Sky<br></br>News' lead world news presenter
-          Yalda Hakim that Donald Trump needs to take "strong <br></br>personal
-          steps" and "make Putin afraid of him".
+          Ukrainian leader tells Sky<br></br>News&apos; lead world news presenter
+          Yalda Hakim that Donald Trump needs to take &quot;strong <br></br>personal
+          steps&quot; and &quot;make Putin afraid of him&quot;.
         </p>
         <div className="flex gap-1 pt-10">
           <div>
-            <img src="clock.svg" className="w-[13px] pt-[5px]" />
+            <img src="clock.svg" alt="Clock icon" className="w-[13px] pt-[5px]" />
           </div>
           <div className="text-[15px] text-zinc-500">
             Tuesday 16 September 2025 07:04, UK
@@ -219,9 +220,9 @@ export default function ArtPage() {
         </div>
         <a href="#">
           <div className="pt-10 relative">
-            <img src="artimg1.jpg" className="absolute" />
+            <img src="artimg1.jpg" alt="Zelenskyy interview" className="absolute" />
             <div className="flex gap-[260px] lg:gap-[745px] relative pt-[200px] lg:pt-[380px]">
-              <img src="play.svg" className="w-[60px] lg:w-[120px] ms-8" />
+              <img src="play.svg" alt="Play video" className="w-[60px] lg:w-[120px] ms-8" />
               <div>
                 <button className="bg-zinc-700 text-white text-[14px] lg:text-[17px] text-bold px-2 py-1 mt-5 lg:mt-25">
                   13:10
@@ -236,17 +237,17 @@ export default function ArtPage() {
         <div className="flex gap-3 mt-10">
           <button className="border rounded border-gray-300 px-5 py-2 hover:bg-gray-100">
             <a href="#">
-              <img src="facebook.svg" className="w-5" />
+              <img src="facebook.svg" alt="Share on Facebook" className="w-5" />
             </a>
           </button>
           <button className="border rounded border-gray-300 px-4 py-2 hover:bg-gray-100">
             <a href="#">
-              <img src="X.png" className="w-7" />
+              <img src="X.png" alt="Share on X" className="w-7" />
             </a>
           </button>
           <button className="border rounded border-gray-300 px-4 py-2 hover:bg-gray-100">
             <a href="#">
-              <img src="wsapp.svg" className="w-6" />
+              <img src="wsapp.svg" alt="Share on WhatsApp" className="w-6" />
             </a>
           </button>
           <button className="border rounded border-gray-300 px-4 py-2 hover:bg-gray-100">
